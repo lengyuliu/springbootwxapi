@@ -1,0 +1,36 @@
+2017-07-05 14:54:46:121 INFO  WxMpDemoApplication- Starting WxMpDemoApplication on USER-20161108VH with PID 5780 (started by Administrator in G:\浏览器下载\weixin-java-mp-demo-springboot-master\weixin-java-mp-demo-springboot-master)
+2017-07-05 14:54:46:123 INFO  WxMpDemoApplication- No active profile set, falling back to default profiles: default
+2017-07-05 14:54:46:547 INFO  Version- HV000001: Hibernate Validator 5.2.4.Final
+2017-07-05 14:54:50:177 INFO  StandardService- Starting service Tomcat
+2017-07-05 14:54:50:182 INFO  StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-07-05 14:54:50:422 INFO  [/]- Initializing Spring embedded WebApplicationContext
+2017-07-05 14:54:50:423 INFO  ContextLoader- Root WebApplicationContext: initialization completed in 3491 ms
+2017-07-05 14:54:51:882 INFO  RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2525ff7e: startup date [Wed Jul 05 14:54:46 CST 2017]; root of context hierarchy
+2017-07-05 14:54:52:031 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/portal],methods=[POST],produces=[application/xml;charset=UTF-8]}" onto public java.lang.String com.github.lengyu.wechat.controller.WechatController.post(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-07-05 14:54:52:032 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/portal],methods=[GET],produces=[text/plain;charset=utf-8]}" onto public java.lang.String com.github.lengyu.wechat.controller.WechatController.authGet(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-07-05 14:54:52:034 INFO  RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.github.lengyu.wechat.controller.WxErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-05 14:54:52:035 INFO  RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.github.lengyu.wechat.controller.WxErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2017-07-05 14:54:52:050 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/getSelfMenuInfo],methods=[GET]}" onto public me.chanjar.weixin.mp.bean.menu.WxMpGetSelfMenuInfoResult com.github.lengyu.wechat.controller.WxMenuController.getSelfMenuInfo() throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:050 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/get],methods=[GET]}" onto public me.chanjar.weixin.mp.bean.menu.WxMpMenu com.github.lengyu.wechat.controller.WxMenuController.menuGet() throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:050 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/create],methods=[GET]}" onto public java.lang.String com.github.lengyu.wechat.controller.WxMenuController.menuCreateSample() throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:052 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/create/{json}],methods=[GET]}" onto public java.lang.String com.github.lengyu.wechat.controller.WxMenuController.menuCreate(java.lang.String) throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:054 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/create],methods=[POST]}" onto public java.lang.String com.github.lengyu.wechat.controller.WxMenuController.menuCreate(me.chanjar.weixin.common.bean.menu.WxMenu) throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:054 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/menuTryMatch/{userid}],methods=[GET]}" onto public me.chanjar.weixin.common.bean.menu.WxMenu com.github.lengyu.wechat.controller.WxMenuController.menuTryMatch(java.lang.String) throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:055 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/delete],methods=[GET]}" onto public void com.github.lengyu.wechat.controller.WxMenuController.menuDelete() throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:056 INFO  RequestMappingHandlerMapping- Mapped "{[/wechat/menu/delete/{menuId}],methods=[GET]}" onto public void com.github.lengyu.wechat.controller.WxMenuController.menuDelete(java.lang.String) throws me.chanjar.weixin.common.exception.WxErrorException
+2017-07-05 14:54:52:143 INFO  SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:54:52:144 INFO  SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:54:52:258 INFO  SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:54:53:502 INFO  Http11NioProtocol- Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-05 14:54:53:544 INFO  Http11NioProtocol- Starting ProtocolHandler [http-nio-8080]
+2017-07-05 14:54:53:632 INFO  NioSelectorPool- Using a shared selector for servlet write/read
+2017-07-05 14:54:53:668 INFO  WxMpDemoApplication- Started WxMpDemoApplication in 8.885 seconds (JVM running for 10.042)
+2017-07-05 14:55:15:392 INFO  [/]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-05 14:55:15:392 INFO  DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-05 14:55:15:417 INFO  DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-07-05 14:55:15:537 INFO  TemplateEngine- [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-07-05 14:55:15:643 INFO  AbstractTemplateResolver- [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-07-05 14:55:15:644 INFO  AbstractTemplateResolver- [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-07-05 14:55:15:644 INFO  AbstractMessageResolver- [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-07-05 14:55:15:644 INFO  AbstractMessageResolver- [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-07-05 14:55:15:677 INFO  TemplateEngine- [THYMELEAF] TEMPLATE ENGINE INITIALIZED

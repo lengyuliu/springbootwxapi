@@ -1,0 +1,4 @@
+2017-07-05 14:55:15:500 ERROR WxErrorController- map is [{timestamp=Wed Jul 05 14:55:15 CST 2017, status=404, error=Not Found, message=No message available, path=/public/test1.html}]
+2017-07-05 14:55:15:504 ERROR WxErrorController- [error info]: status-404, request url-http://localhost:8080/error
+2017-07-05 14:58:03:700 ERROR WxErrorController- map is [{timestamp=Wed Jul 05 14:58:03 CST 2017, status=404, error=Not Found, message=No message available, path=/public/page1.html}]
+2017-07-05 14:58:03:701 ERROR WxErrorController- [error info]: status-404, request url-http://localhost:8080/error

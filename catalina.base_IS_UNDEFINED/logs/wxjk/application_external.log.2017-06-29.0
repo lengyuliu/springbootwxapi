@@ -1,0 +1,21 @@
+2017-06-29 14:11:56:448 INFO  WxMpDemoApplication- Starting WxMpDemoApplication on USER-20161108VH with PID 18700 (started by Administrator in G:\浏览器下载\weixin-java-mp-demo-springboot-master\weixin-java-mp-demo-springboot-master)
+2017-06-29 14:11:56:459 INFO  WxMpDemoApplication- No active profile set, falling back to default profiles: default
+2017-06-29 14:11:56:940 INFO  Version- HV000001: Hibernate Validator 5.2.4.Final
+2017-06-29 14:12:00:378 INFO  StandardService- Starting service Tomcat
+2017-06-29 14:12:00:382 INFO  StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-06-29 14:12:00:584 INFO  [/]- Initializing Spring embedded WebApplicationContext
+2017-06-29 14:12:03:913 INFO  Http11NioProtocol- Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-29 14:12:03:935 INFO  Http11NioProtocol- Starting ProtocolHandler [http-nio-8080]
+2017-06-29 14:12:03:963 INFO  NioSelectorPool- Using a shared selector for servlet write/read
+2017-06-29 14:12:04:046 INFO  WxMpDemoApplication- Started WxMpDemoApplication in 8.318 seconds (JVM running for 9.293)
+2017-06-29 14:12:50:130 INFO  [/]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-29 14:12:53:281 INFO  WechatController- 
+接收到来自微信服务器的认证消息：[null, null, null, null]
+2017-06-29 14:12:53:719 INFO  TemplateEngine- [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-06-29 14:12:53:830 INFO  AbstractTemplateResolver- [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-06-29 14:12:53:831 INFO  AbstractTemplateResolver- [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-06-29 14:12:53:832 INFO  AbstractMessageResolver- [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-06-29 14:12:53:832 INFO  AbstractMessageResolver- [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-06-29 14:12:53:870 INFO  TemplateEngine- [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-06-29 14:13:20:083 INFO  WechatController- 
+接收到来自微信服务器的认证消息：[f9e54dc8edfbafe7120b6caa3b564f51f42b3136, 1498716591, 572812345, 5109157831221025279]
